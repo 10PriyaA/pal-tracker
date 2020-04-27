@@ -20,6 +20,7 @@ public class EnvControllerTest {
         Map<String, String> env = controller.getEnv();
 
         assertThat(env.get("PORT")).isEqualTo("8675");
+        //system.out.println("PORT");
         assertThat(env.get("MEMORY_LIMIT")).isEqualTo("12G");
         assertThat(env.get("CF_INSTANCE_INDEX")).isEqualTo("34");
         assertThat(env.get("CF_INSTANCE_ADDR")).isEqualTo("123.sesame.street");
