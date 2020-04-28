@@ -20,7 +20,6 @@ test {
 
 bootRun.environment([
         "WELCOME_MESSAGE": "hello",
-        "PORT":"8087"
 ])
 
 test.environment([
